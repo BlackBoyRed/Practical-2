@@ -17,10 +17,9 @@ Using Hash Cat
 sudo hashcat -m 0 -a 0 -o cracked.txt hash.txt /usr/share/wordlists/rockyou.txt
 
 ```
+<img width="1177" height="438" alt="Screenshot 2025-07-29 131911" src="https://github.com/user-attachments/assets/d5137cdd-3757-4af8-abb8-6c41b6796653" />
 
-![Screenshot 2025-07-29 131911.png](attachment:b7393aa1-a7f1-48ac-992a-c997c994132a:Screenshot_2025-07-29_131911.png)
-
-![Screenshot 2025-07-29 131940.png](attachment:e3578a5a-15be-4b17-b073-3049ca5be690:Screenshot_2025-07-29_131940.png)
+<img width="762" height="399" alt="Screenshot 2025-07-29 131940" src="https://github.com/user-attachments/assets/402aa7b5-2f40-42c2-9cb7-4959cec70bbe" />
 
 -m specifies the type of hash 
 
@@ -32,7 +31,8 @@ hash.txt specifies the hash list which we created
 
 /usr/share/wordlists/rockyou.txt specifies the wordlist
 
-![Screenshot 2025-07-29 131956.png](attachment:529ac5f2-1fd0-4fda-aada-80abd769b485:Screenshot_2025-07-29_131956.png)
+<img width="476" height="145" alt="Screenshot 2025-07-29 131956" src="https://github.com/user-attachments/assets/2b7f52cd-01b5-4eae-a937-bae6473a70d4" />
+
 
 **JOHN THE RIPPER
 Cracking the Password-Protected ZIP File**
@@ -62,7 +62,8 @@ john —wordlist=/usr/share/wordlists/rockyou.txt encrypted.txt
 
 ```
 
-![Screenshot 2025-07-29 132020.png](attachment:e26f94a3-0d22-4530-a1fd-de687a24e063:Screenshot_2025-07-29_132020.png)
+<img width="1145" height="260" alt="Screenshot 2025-07-29 132020" src="https://github.com/user-attachments/assets/caf81900-779f-42d3-802f-f2099dee48ed" />
+
 
 **RAINBOWCRACK**
 
@@ -72,8 +73,8 @@ First we would be generating the rainbow table
 sudo rtgen md5 loweralpha 1 3 0 1000 1000 0
 
 ```
+<img width="906" height="308" alt="Screenshot 2025-07-29 132034" src="https://github.com/user-attachments/assets/d4725f2d-ab58-4330-a604-055fe9a524e3" />
 
-![Screenshot 2025-07-29 132034.png](attachment:6c346ddd-3931-458c-9e74-f08bfbaceced:Screenshot_2025-07-29_132034.png)
 
 Then we would be sorting the table
 
@@ -93,5 +94,5 @@ Then we would be cracking the hash
 sudo rcrack -h 06d80eb0c50b49a509b49f2424e8c805
 
 ```
+<img width="769" height="666" alt="Screenshot 2025-07-29 132108" src="https://github.com/user-attachments/assets/fea3b54c-d967-4346-af39-9ad98530e083" />
 
-![Screenshot 2025-07-29 132108.png](attachment:790322c4-0611-48f4-bcaf-8e56ba036727:Screenshot_2025-07-29_132108.png)
